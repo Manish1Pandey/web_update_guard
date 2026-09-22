@@ -1,0 +1,11 @@
+.dart_tool/
+build/
+.packages
+pubspec.lock
+example/.dart_tool/
+example/build/
+example/pubspec.lock
+example/macos/Flutter/ephemeral/
+*.iml
+.idea/
+.DS_Store

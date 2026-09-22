@@ -1,0 +1,43 @@
+name: web_update_guard
+description: Stop Flutter web users running stale cached builds. A CLI stamps and cache-busts build/web; a runtime guard detects new deploys and reloads cleanly.
+version: 0.1.0
+homepage: https://github.com/Manish1Pandey/web_update_guard
+repository: https://github.com/Manish1Pandey/web_update_guard
+issue_tracker: https://github.com/Manish1Pandey/web_update_guard/issues
+topics:
+  - web
+  - cache
+  - deployment
+  - service-worker
+  - update
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+  flutter: ">=3.35.0"
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+executables:
+  web_update_guard:
+
+dependencies:
+  args: ^2.5.0
+  crypto: ^3.0.3
+  flutter:
+    sdk: flutter
+  meta: ^1.15.0
+  path: ^1.9.0
+  web: ^1.1.0
+  yaml: ^3.1.2
+
+dev_dependencies:
+  fake_async: ^1.3.1
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
