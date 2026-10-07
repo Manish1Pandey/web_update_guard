@@ -194,6 +194,12 @@ python3 -m http.server -d build/web 8080
 # and focus the tab: the banner appears.
 ```
 
+## Links
+
+- **Documentation and live demo:** [flutterdev.in/packages/web_update_guard](https://flutterdev.in/packages/web_update_guard/)
+- **More Flutter packages:** [flutterdev.in](https://flutterdev.in)
+- **Learn data structures & algorithms in Dart:** [Algoistan](https://algoistan.flutterdev.in)
+
 ## License
 
 MIT © 2026 Manish Kumar Panday
