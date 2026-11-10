@@ -1,6 +1,6 @@
 name: web_update_guard
 description: Stop Flutter web users running stale cached builds. A CLI stamps and cache-busts build/web; a runtime guard detects new deploys and reloads cleanly.
-version: 0.1.1
+version: 0.1.2
 homepage: https://flutterdev.in/packages/web_update_guard/
 repository: https://github.com/Manish1Pandey/web_update_guard
 issue_tracker: https://github.com/Manish1Pandey/web_update_guard/issues
@@ -10,6 +10,10 @@ topics:
   - deployment
   - service-worker
   - update
+
+screenshots:
+  - description: "Animated: after a new deploy, Check now switches the app to updateAvailable and shows a Reload prompt."
+    path: screenshots/demo.gif
 
 environment:
   sdk: ">=3.9.0 <4.0.0"

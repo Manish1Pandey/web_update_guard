@@ -20,6 +20,10 @@ mix of two versions — until the user hard-refreshes. This is
    apply the update it unregisters service workers, clears CacheStorage,
    re-fetches `index.html` and reloads the page.
 
+![The example app shows upToDate; after a new build is deployed, Check now switches it to updateAvailable with the new build ID, an UpdateBanner and a Reload snackbar](screenshots/demo.gif)
+
+*The stamped example app on Flutter web. The first **Check now** finds the same build. After a new `version.json` with a different build ID is served, as a redeploy would, the next check reports `updateAvailable` and the app shows its banner and Reload snackbar.*
+
 ## Install
 
 ```yaml
