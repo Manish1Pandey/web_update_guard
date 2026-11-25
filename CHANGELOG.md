@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Flutter 3.50 compatibility: silence the `package:flutter/material.dart` deprecation (the `material_ui` migration would break apps still on the framework's Material). No behaviour change.
+
 ## 0.1.2
 
 - README: demo GIF.
